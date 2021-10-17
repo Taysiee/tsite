@@ -1,0 +1,169 @@
+#aboutSection-DIV{
+    background-color: #f4f4f7;
+    margin-top: 10em; 
+    margin-bottom: 5em; 
+    padding: 2em;
+}
+
+#personalSkills-DIV{
+    position: relative;
+}
+
+.col-edits{
+    margin: auto;
+    width: 55%;
+    text-align: left;
+}
+
+
+#CD-img{
+    max-width: 90%;
+    height: auto;
+    pointer-events: none;
+}
+#CD-img-div-mobile{
+    display: none;
+}
+#GD-img{
+    display: flex;
+    width: 80%;
+    float: right;
+}
+#GD-img-mobile{
+    display: none;
+}
+#GD-img-div{
+     
+   width: 100%;
+    display: flex;
+}
+
+
+#pPadding{
+    margin-top: 2em;
+}
+#sm-header-about{
+    /* position: relative; */
+    font-size: 10pt;
+    border-top: 1px solid;
+    border-color: gray;
+    padding-top: 1rem;
+    /* -ms-transform: rotate(270deg); /* IE 9 */
+    /* -webkit-transform: rotate(270deg); /* Safari 3-8 */
+    /*transform: rotate(270deg); */
+}
+
+.col-edits-talents{
+    margin-top: 8em;
+    /* width: 55%; */
+    text-align: left;
+    padding-right: 6em;
+}
+#talentsNumbering-01{
+    font-weight: bold;
+    margin-top: 3em;
+    text-align: right;
+    /* color: #f5943a; */
+    color: #231F20;
+    
+}
+#talentsNumbering-02{
+    font-weight: bold;
+    text-align: right;
+    margin-top: 3em;
+    /* color: #3ad7f2; */
+    color: #231F20;
+    
+}
+#row-padding{
+    margin-top: 10em;
+}
+#row-padding-CD{
+    margin-top: 10em;
+    padding-bottom: 10em;
+}
+#tay-img{
+    height: auto;
+    width: 100%;
+}
+
+
+/* Responsive Design */
+@media only screen and (max-width: 1000px) {
+    .col-edits{
+        width: 90%;
+    }
+    #GD-img{
+        /* float: none;
+        width: 100%;
+        height: auto;
+        pointer-events: none;
+        display: flex; */
+        display: none;
+    }
+    #GD-img-div{
+        background-image: unset;
+        background-size: unset;
+            -webkit-background-size: unset;
+            -moz-background-size: unset;
+            -o-background-size:unset;
+            height: unset;
+        display: unset;
+    }
+    .header-blurb-home{
+        width: 88%;
+        margin-left: 3em;
+        margin-top: 2em;
+        padding-right: 2em;
+    }
+    #header-blurb-intro{
+        font-size: calc(40px + 2vmin);
+    }
+    #aboutSection-DIV{
+        margin-top: 2em;
+        margin-bottom: unset;
+    }
+    #about-intro{
+        margin-top: 1em;
+        padding-top: 3em;
+        padding-bottom: 2em;
+    }
+    #talentsNumbering-01, #talentsNumbering-02{
+        margin-top: 5vh;
+        text-align: left;
+        margin-left: 1.3em;
+        width: fit-content;
+    }
+    .col-edits-talents{
+        margin-top: unset;
+        text-align: left;
+        margin-left: 3.3em;
+        width: fit-content;
+        padding-right: 2em;
+    }
+    #row-padding{
+        margin-top: 2em;
+    }
+    #row-padding-CD{
+        margin-top: 0;
+        padding-bottom: 5em;
+    }
+    #CD-img-div-mobile{
+        display: inline;
+        width: 80%;
+        margin-left: 2.3em;
+        margin-top: 3em;
+    }
+    #GD-img-mobile{
+        display: inline;
+        width: 80%;
+        margin-left: 2.3em;
+        margin-top: 3em;
+        
+    }
+    #CD-img-div{
+        display: none;
+    }
+  
+
+}

@@ -1,0 +1,62 @@
+.contact{
+    text-align: center;
+    overflow-x: hidden;
+    background-color: white;
+}
+#contactEdits{
+    margin: 15rem 0 0 16rem;
+    
+}
+#contactEdits-header{
+    height: 40rem;
+}
+#contactImg{
+    height: auto;
+    margin-top: -6rem;
+    width: 19rem;
+    display: block;
+    float: right;
+  
+}
+#contactInfo{
+    text-align: left;
+}
+@media only screen and (max-width:1024px){
+    #contactEdits{
+        margin: 15rem 0 0 10rem;
+    }
+    #contactImg{
+        margin-left: -1rem;
+    }
+ 
+}
+@media only screen and (max-width:768px){
+    #contactImg{
+        margin-left: -3rem;
+    }
+    #contactEdits{
+        margin: 17rem 0 0 6rem;
+       
+    }
+}
+
+@media (max-width:560px){
+    #contactEdits-header{
+        height: 50rem;
+    }
+}
+
+@media only screen and (max-width:414px){
+    #contactImg{
+        margin-left: -0.5rem;
+        width: 77%;
+        float: left;
+        margin-top: -3rem;
+    }
+    #contactEdits{
+        margin: 11rem 0 0 4rem;
+    }
+    /* #contactInfo{
+        margin: -7rem 0 0 1rem;
+    } */
+}

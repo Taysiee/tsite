@@ -1,0 +1,30 @@
+
+#pagesStyled{
+    display: inline-block;
+    border: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 0 0 1.5rem;
+    padding: .5rem;
+    background: none;
+    letter-spacing: 1px;
+    color: #231f20;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .pagesTopNav{
+        left: 24%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .pagesTopNav{
+        left: 15%;
+    }
+}
+@media (max-width:478px){
+    .pagesTopNav{
+        display: none;
+    }
+}

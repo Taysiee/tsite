@@ -1,0 +1,105 @@
+.Work{  
+  text-align: center;
+  background-color: white;
+  overflow-x: hidden;
+}
+.Work-header {
+  
+       
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+  }
+.stroke-1{
+    stroke: white;
+    stroke-width: 20;
+    stroke-linecap: butt;
+    stroke-dasharray: 0;
+   
+  }
+.header-blurb-work{
+    text-align: left;
+    width: 50%;
+    margin-left: 21em;
+  }
+#work-intro{
+    background-color: white;
+    text-align: center;
+    padding: 3em;
+   
+}
+
+#work-header{
+  margin-top: 1em;
+}
+#work-intro-info-blurb{
+  margin-top: 2em;
+  font-size: calc(5px + 2vmin);
+ 
+}
+#artstation-work{
+  width: 35px;
+  height: 35px;
+}
+#instagram-work, #behance-work{
+  width: 30px;
+  height: 30px;
+  margin-left: 1vw;
+}
+.workTitle-DIV{
+  margin-top: 5em;
+ 
+}
+#workText-div{
+  text-align: left;
+}
+#workText{
+  font-size: calc(150px + 2vmin);
+  line-height: 0.75;
+  text-align: left;
+
+  /* writing-mode: vertical-lr;
+  text-orientation: upright; */
+}
+#workGallery{
+  margin: 10em 0 5em 0;
+}
+
+@media only screen and (max-width: 1024px) {
+  #workGallery{
+    margin: 0 0 5em 0;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .header-blurb-work{
+    width: 88%;
+    margin-left: 3em;
+    margin-top: 2em;
+    padding-right: 2em;
+  }
+  #behance-work, #instagram-work{
+    margin-left: 1em;
+  }
+  #workText{
+    font-size: calc(81px + 2vmin);
+  }
+  .Work-header{
+    height: 15vh;
+  }
+
+}
+@media only screen and (max-width: 768px) {
+  #workGallery{
+    margin: 10em 0 5em 0;
+  }
+}
+
+
+@media only screen and (max-width: 414px) {
+  #workGallery{
+    margin: 4em 0 5em 0;
+  }
+}

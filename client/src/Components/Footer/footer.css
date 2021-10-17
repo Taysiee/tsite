@@ -1,0 +1,48 @@
+#container-edits-footer{
+    background-color: #f4f4f7;
+    line-height: .9em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+   
+    
+}
+#col-edits-footer{
+    text-align: left;
+    
+}
+.link:hover{
+    background: -webkit-linear-gradient(to right, #c1cce8, #f4953a);
+    background: linear-gradient(to right,  #c1cce8 ,#f4953a);
+    background-image: linear-gradient(to right,  #c1cce8 , #f4953a);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+#footerEdits{
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    #container-edits-footer{
+        height: 35rem;
+    }
+}
+@media only screen and (max-width: 768px) {
+    #container-edits-footer{
+        height: 17rem;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    #col-edits-footer{
+        text-align: center;
+       
+    }
+}
+@media only screen and (max-width: 414px) {
+    #container-edits-footer{
+        height: 25rem;
+    }
+}

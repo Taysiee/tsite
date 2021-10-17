@@ -1,0 +1,204 @@
+#menuDiv{
+  background-color: #ffffff;
+  width: 100%;
+  height: 900%;
+  left: 0;
+  position: fixed;
+  z-index: 1;
+  overflow: hidden;
+  top: -3em;
+}
+.pages{
+    position: fixed;
+    font-size: 2.5vw;
+    top: 35vh;
+    left: 3vw;
+ 
+}
+.pageInfo{
+  font-size: calc(5px + 1vmin);
+  text-align: left;
+  margin-left: .5em;
+  /* color: #f2f2f2; */
+  color: gray;
+}
+.nameTitle-menu{
+    -ms-transform: rotate(270deg); /* IE 9 */
+    -webkit-transform: rotate(270deg); /* Safari 3-8 */
+    transform: rotate(270deg);
+    color: red;
+    position: fixed;
+    top: 43vh;
+    left: -1vw;
+    font-size: 1vw;
+  }
+  .vl-left{
+    border-left: 1px solid gray;
+    height: 600%;
+    position: fixed;
+    left: 30%;
+    top: -2em;
+  }
+  .vl-right{
+    border-left: 1px solid gray;
+    height: 600%;
+    position: fixed;
+    right: 6.5%;
+    top: -2em;
+  }
+  .nameTitle{
+    -ms-transform: rotate(270deg); /* IE 9 */
+    -webkit-transform: rotate(270deg); /* Safari 3-8 */
+    transform: rotate(270deg);
+    color: lightgray;
+    position: fixed;
+    top: 50%;
+    right: 1%;
+    font-size: calc(12px + .5vmin);
+  }
+  .pagesStyled{
+    color: gray;
+    font-family: 'Avenir Next';
+    /*  font-weight: Bold; */
+    /* letter-spacing: calc(-7px + .5vmin); */
+    line-height: 1.2;
+    background:none;
+    border:none; 
+    cursor: pointer;
+    font-size: calc(20px + 2vmin);
+    display: block;
+}
+
+.pagesStyled:hover{
+    /* color: rgb(255, 208, 0);   */
+    background: -webkit-linear-gradient(to right, #c1cce8, #f4953a);
+    background: linear-gradient(to right,  #c1cce8 ,#f4953a);
+    background-image: linear-gradient(to right,  #c1cce8 , #f4953a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.5s;
+    /* text-decoration: line-through;   */ 
+    /* border-top: double; */
+    
+}
+.pagesStyled:active{
+    outline: none; 
+}
+.pagesStyled:focus{
+    outline: none; 
+}
+
+#Menu-img{
+    border-style: none;
+    position: absolute;
+        /* width: 76%; */
+    left: 47vw;
+    top: 10vh;
+    pointer-events: none;
+    width: 50%;
+  }
+  #Menu-img img {
+    width: 80%;
+    height: auto;
+  }
+  #menuPhotoTitle{
+    font-family: 'Tungsten';
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: calc(90px + .5vmin);
+    position: fixed;
+    left: 35vw;
+    top: 35vh;
+    color: #231f20;
+    /* background: -webkit-linear-gradient(to right, #c1cce8, #f4953a);
+    background: linear-gradient(to right,  #c1cce8 ,#f4953a);
+    background-image: linear-gradient(to right,  #c1cce8 , #f4953a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;*/
+  } 
+
+.socialMedia{
+    top: 91vh;
+    left: 3vw;
+    position: fixed;
+}
+
+#artstation-menu{
+    width: 25px;
+    height: 25px;
+}
+#instagram-menu, #behance-menu{
+    width: 25px;
+    height: 25px;
+    margin-left: 1vw;
+}
+#artstation-menu,#instagram-menu, #behance-menu:hover{
+  cursor: pointer;
+}
+
+  /* forward */
+  .hvr-forward {
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .hvr-forward:hover, .hvr-forward:focus, .hvr-forward:active {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px);
+  }
+
+
+  @media only screen and (max-width: 414px) {
+    .menuContentDiv{
+      position: relative;
+      min-height: auto;
+      top: 5rem;
+      width: 100%;
+      /* background-color: orange; */
+    }
+    #Menu-img{
+      position: relative;
+      height:auto;
+      left: 6rem;
+      top: -1em;
+      width: 50%;
+    }
+    #Menu-img img{
+      width:100%
+    }
+    .pages{
+      margin: 0;
+      position: absolute;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, 0);
+      margin-top: 0;
+   }
+   .vl-right, .vl-left, .vl-left-home{
+     display: none;
+   }
+   .socialMedia{
+      margin: 0;
+      left: 47%;
+      margin-right: -50%;
+      transform: translate(-50%, 0) 
+    }
+    #instagram-menu, #behance-menu{
+      margin-left: 1em;
+  }
+  .nameTitle{
+    top: unset;
+  }
+  #menuPhotoTitle{
+    display: none;
+  }
+  #footerEdits{
+    margin-top: -2rem;
+  }
+ 
+  }

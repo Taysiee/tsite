@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .App-logo {
@@ -26,6 +28,14 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.navagationDiv{
+  position: relative;
+  width: 100%;
+  text-align: center;
+  padding: 2rem;
+  background-color: white;
 }
 
 @keyframes App-logo-spin {

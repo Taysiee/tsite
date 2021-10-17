@@ -1,0 +1,172 @@
+
+.About{
+    overflow-x: hidden;
+    text-align: left;
+}
+a:hover{
+    text-decoration: none;
+}
+.About-header{
+    background-color: #f4f4f7;
+    min-height: 55vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.col-edits-about{
+    margin: 0px 0 0 9%;
+    width: 85%;
+    
+}
+#col-edits-about-2{
+    margin: 0 15% 0 0;
+}
+#pPadding{
+    margin-top: 2em;
+}
+#aboutSection-one{
+    margin-top: 10em;
+    padding: 0 0 5rem 0;
+   
+}
+.lineheight-sm{
+    line-height: 1em;
+}
+.lineheight-med{
+    line-height: .9em;
+}
+#email-edited{
+    color: #f5943a;
+}
+.social-link{
+    text-decoration: none;
+}
+.link:hover{
+    background: -webkit-linear-gradient(to right, #c1cce8, #f4953a);
+    background: linear-gradient(to right,  #c1cce8 ,#f4953a);
+    background-image: linear-gradient(to right,  #c1cce8 , #f4953a);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+.quote{
+    font-size: calc(1px + 2vmin);
+    color: #000000;
+    position: absolute;
+    top: 4vh;
+    right: 3em;
+}
+#artstation{
+    width: 25px;
+    height: 25px;
+    margin-left: 1vw;
+}
+#instagram, #behance{
+    width: 25px;
+    height: 25px;
+    
+}
+#artstation,#instagram, #behance:hover{
+  cursor: pointer;
+}
+.whisperText{
+    font-size: calc(1px + 1vmin);;
+}
+
+.title{
+    font-family: 'Avenir Next Condensed'; /* add 'Lemon/Milk' */
+    font-weight: 900;
+    font-size: calc(17px + 2vmin);
+    color: #231f20;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+#aboutSection-two{
+    padding: 5rem 0 5rem 0;
+    background-color: white;
+}
+
+
+
+
+/* Responsive Design */
+@media only screen and (max-width: 1024px) {
+
+   
+    #whisperText-mobile{
+        font-size: calc(8px + 1vmin);;
+    }
+    #quote-mobile{
+        font-size: calc(5px + 2vmin);
+        color: #000000;
+        position: absolute;
+        top: 4vh;
+        right: 3em;
+    }
+    #paddingTop{
+        margin-top: 2em;
+    }
+    #aboutSection-one{
+        margin-bottom: 2em;
+        margin-left: unset;
+    }
+   
+
+}
+@media only screen and (max-width: 976px) {
+    .col-edits-about{
+        padding-bottom: 3rem;
+        margin: unset;
+    }
+   
+    #whisperText-mobile{
+        font-size: calc(8px + 1vmin);;
+    }
+    #quote-mobile{
+        font-size: calc(5px + 2vmin);
+        color: #000000;
+        position: absolute;
+        top: 4vh;
+        right: 3em;
+    }
+    #paddingTop{
+        margin-top: 2em;
+    }
+    #container-edits-about{
+        margin-left: unset;
+    }
+    .marginMobile{
+        margin: 0px 0 0 9%;
+    }
+   
+
+}
+
+@media only screen and (max-width: 414px) {
+    #col-edits-about-3{
+        margin: 3rem 2rem 0 2rem;
+    }
+    #col-edits-about-2{
+        margin: 2rem 0 0 0;
+    }
+   
+    .padding-left{
+        margin-left: 2rem;
+    }
+    .col-edits-about{
+        padding: unset;
+    }
+    #container-edits-about {
+        margin-top: 5em;
+    }
+    #aboutSection-one{
+        margin-bottom: unset;
+        margin-left: unset;
+        margin-top: 7em;
+    }
+   
+}

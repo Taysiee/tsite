@@ -1,0 +1,260 @@
+.Home {
+  position: relative;
+  height: auto;
+  padding: 5rem 5rem 5rem 15rem;
+  background-color: white;
+  max-height: 50rem;
+  }
+  
+
+  #navDiv{
+    display: none;
+  }
+  
+  .stroke-1{
+    stroke: #ffffff;
+    stroke-width: 20;
+    stroke-linecap: butt;
+    stroke-dasharray: 0;
+   
+  }
+  svg {
+    fill: none;
+    position: absolute;
+    left:-2em;
+    
+  }
+  .icon{
+    font-size: calc(30px + 2vmin);
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    right: 1em;
+  }
+  .NFZ{
+    font-size: calc(1px + 2vmin);
+    color: black;
+    position: absolute;
+    top: 4vh;
+    right: 3em;
+  }
+  
+  
+  
+  
+  /* Talents blurb  */
+  #about-intro{
+    background-color: white;
+    text-align: center;
+    padding: 1em;
+    /* margin-top: 5em; --- keep if profile picture section is included*/
+    padding-top: 5em;
+  }
+  #talents-header{
+    margin-top: 1em;
+  }
+  
+  #container-edits-talents{
+    /* background-color: #f4f4f7; */
+    background-color: white;
+    /* padding-top: 7em; */
+  }
+  /* end of talents blurb */
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  .vl-left-home{
+    border-left: 1px solid gray;
+    height: 600%;
+    position: fixed;
+    left: 7%;
+    top: -2em;
+    /* z-index: 1; */
+  }
+  
+  
+  /* new home design elements */
+    /* #headerDiv{
+      height: 80vh;
+      margin-left: 23vw;
+      margin-top: 9rem;
+      width: 100%;
+      overflow-y: hidden;
+      overflow-x: hidden;
+    }
+   */
+    #homeText-div{
+      margin-top: 12rem;
+    }
+    #homeText-div-mobile, #homeBlurb-mobile{
+      display: none;
+    }
+    #homeText{
+      font-size: calc(100px + 2vmin);
+      line-height: 0.75;
+      text-align: left;
+  
+      /* writing-mode: vertical-lr;
+      text-orientation: upright; */
+    }
+    .homeBlurb{
+      text-align: left;
+      margin: 1rem 0 0 .5rem;
+      /* font-size: calc(12px + 1vmin); */
+      font-size: 1.2rem;
+    }
+    #homeDetails{
+      position: absolute;
+      top: 50%;
+      left: 40vw;
+      font-size: calc(50px + 2vmin);
+      padding-bottom:  2em;
+    }
+    #homeDetails2{
+      position: absolute;
+      top: 60%;
+      left: 33vw;
+      font-size: calc(30px + 2vmin);
+      padding-bottom:  2em;
+    }
+  
+    
+  /* Mobile Design */
+  @media only screen and (max-width: 1400px) {
+    #home-img{
+      width: 30rem;
+      margin: 0 0rem 0 -5rem;
+    }
+    #homeText{
+      font-size: calc(100px + 2vmin);
+    }
+    #homeText-div{
+      margin: 12rem 0 0 0;
+    }
+  
+
+  }
+  
+  /* iPad Design */
+  @media only screen and (min-width: 479px) and (max-width: 1024px) {
+    #home-img{
+      width: 20rem;
+      margin: 1rem 0 0 0;
+    }
+    #homeText{
+      font-size: calc(100px + 2vmin);
+    }
+    #homeText-div{
+      margin: 2.5rem 0 0 0;
+    }
+    .navbarItems{
+      display: none;
+    }
+    #homeBlurb-mobile{
+      display: flex;
+    }
+    .homeBlurb{
+      display: none;
+      margin: unset;
+    }
+    .Home {
+      padding: 5rem 0rem 5rem 8rem;
+      }
+  }
+  
+  
+  
+  
+  /* Mobile Design */
+  @media only screen and (max-width: 478px) {
+    
+    .App-header {
+      min-height: unset;
+      height: 27rem;
+    }
+    #svg-circle{
+      display: none;
+    }
+    #homeText-div{
+      display: none;
+    }
+    #homeText-div-mobile{
+      display: flex;
+      flex-direction: column;
+    }
+    #homeText{
+      font-size: calc(100px + 2vmin);
+    }
+    #homeDetails,#homeDetails2{
+      display: none;
+    }
+  
+    .header-blurb-home{
+      text-align: center;
+      margin-left: 25%;
+      position: absolute;
+      top: 35vh;
+    }
+    #header-blurb-intro{
+      color: #ffffff;
+      font-size: calc(60px + 2vmin);
+      font-weight: 900;
+    }
+  
+    #homeBlurb{
+      font-size: calc(5px + 2vmin);
+      width: 50%;
+      line-height: 1.5em;
+    }
+    #talents-intro-info-blurb{
+      width: 80%;
+      text-align: left;
+      margin-left: 2.3em;
+    }
+  
+    .icon{
+      display: none;
+    }
+    #container-edits-talents{
+      padding-top: unset;
+    }
+    #home-img{
+      width: 21rem;
+      position: absolute;
+    }
+   
+    #talents-header{
+      margin-top: unset;
+    }
+    #home-img{
+      top: unset;
+    }
+    #homeBlurb-mobile{
+      display: flex;
+    }
+    .homeBlurb{
+      display: none;
+    }
+    #navDiv{
+      display: flex;
+    }
+    .Home {
+      padding: 5rem 0rem 5rem 5rem;
+    }
+    
+  }
+
+  @media only screen and (max-width: 375px) {
+    .Home {
+      padding: 2rem;
+    }
+    .homeBlurb{
+      font-size: 1rem;
+    }
+  }
+  
+  
+  
+  
