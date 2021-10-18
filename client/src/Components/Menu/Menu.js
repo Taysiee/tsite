@@ -12,8 +12,49 @@ import instagram from '../../Imgs/instagram.svg';
 import behance from '../../Imgs/behance.svg';
 
 export class Menu extends Component {
+
+    myFunction() {
+        var x = document.getElementById("menuDiv");
+       
+          
+       
+      }
+      
+
+      constructor () {
+        super()
+        this.state = {
+          isHidden: false,
+          
+        }
+        
+      };
+      toggleHidden () {
+        this.setState({
+          isHidden: !this.state.isHidden,
+        
+          
+        })
+        var x = document.getElementById("menuDiv");
+        x.style.display = "none";
+
+        var i = document.getElementsByClassName("toggle-icon pushed");
+        if (i){
+            while (i.length) {
+                i[0].classList.remove("pushed");
+            }
+          
+        }
+        
+      }
+
+   
+      
+
+
     render(){
 
+        const {toggleHidden} = this.props;
         function refreshPage(){ 
             document.location.assign('/'); 
         }
@@ -21,15 +62,15 @@ export class Menu extends Component {
 
         const pages = (
             <>
-           <NavLink  className="pagesStyled hvr-forward" to="/">Home</NavLink>
+           <NavLink  onClick={this.toggleHidden.bind(this)}  className="pagesStyled hvr-forward" to="/" >Home</NavLink>
             <p className="pageInfo">For the experience</p>
-            <NavLink className="pagesStyled hvr-forward" to="/about">About</NavLink>            
+            <NavLink onClick={this.toggleHidden.bind(this)} className="pagesStyled hvr-forward" to="/about">About</NavLink>            
             <p className="pageInfo">For satisfying your curiosity</p>
-            <NavLink className="pagesStyled hvr-forward" to="/work">Work</NavLink>
+            <NavLink onClick={this.toggleHidden.bind(this)} className="pagesStyled hvr-forward" to="/work">Work</NavLink>
              <p className="pageInfo">For those who are interested</p>
              <a href="https://shop.taylorsiemens.com" target="_self" rel="noopener noreferrer" style={{textDecoration: "none"}}><button type="button" className="pagesStyled hvr-forward">Shop</button></a>
              <p className="pageInfo">Support the artist</p>
-             <NavLink className="pagesStyled hvr-forward" to="/contact">Contact</NavLink>
+             <NavLink onClick={this.toggleHidden.bind(this)} className="pagesStyled hvr-forward" to="/contact">Contact</NavLink>
              <p className="pageInfo">For those who want to connect</p>
             </>
         )
@@ -37,11 +78,10 @@ export class Menu extends Component {
         return( 
           
         <div id="menuDiv" >
-             
             
             <div className="menuContentDiv">
                 <Fade casscade>
-                    <div id="Menu-img"><img src={img}  alt="A rad image that unfortunately didn't load."/></div>
+                    <div id="Menu-img"><img src={img}  alt="An image that unfortunately didn't load."/></div>
                     <p id="menuPhotoTitle"> Be Humble </p>
                 </Fade>
                 <div className="pages"> {pages} </div>

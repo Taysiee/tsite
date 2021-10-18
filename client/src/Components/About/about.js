@@ -51,7 +51,7 @@ export class about extends Component {
                             </div>
                         </div>
 
-                        <div className="col-sm-7 col-lg-3">
+                        <div className="col-10 col-sm-7 col-lg-3">
                             <div  >
                                 <p><strong>Expertise.</strong></p>
                                 <p style={{color:"darkGray"}}> <strong>GRAPHIC DESIGN</strong></p>
@@ -85,7 +85,7 @@ export class about extends Component {
                             <a href="https://twitter.com/Pixxel_Perfect/status/1385029874486702080"><p className="link">Twitter — Ryan Reynolds liked my tweet! (49K+ Impr)</p></a>
                             <a href="https://vimeo.com/256717186"><p className="link">Film production — behind and in front of the camera</p></a>
                             <a href="http://watersoftheokanagan.ca/exhibit/#1"><p className="link">Exhibition panels — designed + toured Canada</p></a>
-                            <p>Photogrammetry — researched and created 3D models </p>
+                            <p>Photogrammetry — lead researcher & designer for 3D models </p>
                             <p>Code — programmed this site myself </p>
                             
                             </div>

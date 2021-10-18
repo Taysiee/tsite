@@ -116,7 +116,7 @@
  }
  .hamburgerBtn-div{
    font-size: .5em;
-   top: 5vh;
+   top: 4vh;
  }
 }
 @media only screen and (max-width:414px){
@@ -128,5 +128,8 @@
     top: 0;
     z-index: 9999;
     display: flex;
+  }
+  .navagationDiv{
+    padding: unset;
   }
 }

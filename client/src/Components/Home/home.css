@@ -248,7 +248,7 @@
 
   @media only screen and (max-width: 375px) {
     .Home {
-      padding: 2rem;
+      padding: 6rem 1rem 2rem 1rem;
     }
     .homeBlurb{
       font-size: 1rem;

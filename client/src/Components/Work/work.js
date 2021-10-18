@@ -1,16 +1,13 @@
 import React,{ Component } from 'react';
 
-import TopNav from '../TopNav/topnav.js'
 
 import './work.css';
-import Navbar from '../Navbar/Navbar.js'
-import Footer from '../Footer/footer.js'
 import AllGallery from '../Gallery/gallery-all.js'
 
 
-import artstation from '../../Imgs/artstation-logo-blk.png';
-import instagram from '../../Imgs/instagram.svg';
-import behance from '../../Imgs/behance.svg';
+// import artstation from '../../Imgs/artstation-logo-blk.png';
+// import instagram from '../../Imgs/instagram.svg';
+// import behance from '../../Imgs/behance.svg';
 
 
 

@@ -7,12 +7,14 @@
   z-index: 1;
   overflow: hidden;
   top: -3em;
+  display: unset;
 }
 .pages{
     position: fixed;
     font-size: 2.5vw;
     top: 35vh;
     left: 3vw;
+    text-align: left;
  
 }
 .pageInfo{

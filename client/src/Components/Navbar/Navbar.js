@@ -32,9 +32,11 @@ export class Navbar extends Component {
 
     render(){
       
-        const nameColor = this.state.isHidden ? 'black' : 'orange';
+        
         const ham = this.state.isHidden ? 'toggle-icon' : 'toggle-icon pushed';
-        const menuTag = this.state.isHidden ? 'MENU' : 'CLOSE';
+        // const menuTag = this.state.isHidden ? 'MENU' : 'CLOSE';
+        // const nameColor = this.state.isHidden ? 'black' : 'orange';
+
 
         function refreshPage(){ 
           document.location.assign('/'); 
